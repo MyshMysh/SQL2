@@ -1,0 +1,18 @@
+CREATE TABLE Fedora (Id INTEGER PRIMARY KEY, Color TEXT, Count INTEGER, Price REAL);
+
+INSERT INTO Fedora VALUES (1, "Yellow", 27, 37);
+INSERT INTO Fedora VALUES (2, "Blue", 15, 25);
+INSERT INTO Fedora VALUES (3, "Green",27, 30);
+INSERT INTO Fedora VALUES (4, "Red", 18, 45);
+INSERT INTO Fedora VALUES (5, "Pink", 75, 69);
+INSERT INTO Fedora VALUES (6, "Orange", 18, 19);
+
+SELECT * FROM Fedora;
+
+SELECT * FROM Fedora WHERE Count >=27;
+SELECT MAX(price) FROM Fedora;
+
+
+
+
+
